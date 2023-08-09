@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container ul{
+    background-color: #ddd;
+    border-radius: 15px;
+}
+
+.container ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    user-select: none;
+    /* border-radius: 15px; */
+}
+
+.container ul li:hover{
+    background-color: #b6b2b2;
+}
+
+.nohover:hover{
+    background-color: #ddd !important;
+}
+
+.container ul li p{
+    font-size: 40px;
+}
+

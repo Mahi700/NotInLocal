@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+}
+
+body{
+    /* background-color: #222020; */
+    background-color: #2e2c2c;
+}
+
+.center-css{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.outline{
+    height: 530px;
+    width: 285px;
+    border-radius: 12px;
+    border: 3px solid #000;
+    background: rgb(46, 43, 43);
+}
+
+.front-camera{
+    position: relative;
+    left: 135px;
+
+    background: black;
+    height: 1em;
+    width: 1em;
+    border-radius: 50%;
+}
+
+.display{
+    height: 505px;
+    width: 265px;
+    border-radius: 12px;
+    border: 3px solid #000;
+
+    cursor: pointer;
+    -webkit-filter: brightness(45%);
+}
+
+.display img{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    background-position: center;
+    border-radius: 10px;
+    /* filter: blur(8px); */
+    /* -webkit-filter: opacity(80%); */
+    -webkit-filter: brightness(78%);
+    user-select: none;
+    transition: 0.5s;
+
+    /* position: relative; */
+}
+
+.lock-screen-time{
+    user-select: none;
+    width: 53%;
+    position: absolute;
+    top: 6%;
+    left: 25%;
+}
+
+.lock-screen-time h3{
+    color: #fff;
+    font-size: 4.6em;
+    font-weight: 400;
+}
+
+.lock-screen-time p{
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+    bottom: 8px;
+    font-weight: 600;
+}
+
+.lock-screen-bottom-buttons{
+    display: flex;
+    justify-content: space-between;
+
+    position: relative;
+    bottom: 8%;
+    padding: 0% 6%;
+    /* background: #ddd */
+}
+
+.lock-screen-bottom-buttons i{
+    /* color: rgb(186, 180, 180);  */                                              /* (best color) */                            
+    color: rgb(186, 180, 180);                     
+    font-size: 2em;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.lock-screen-bottom-buttons i:hover{
+    /* color: rgb(186, 180, 180);  */                                              /* (best color) */                            
+    /* color: rgb(122, 17, 17);*/                                                    /* (red) */
+    color: rgb(236, 228, 228);                     
+    font-size: 2.5em;
+}

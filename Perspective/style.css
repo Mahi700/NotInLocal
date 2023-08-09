@@ -1,0 +1,19 @@
+.div1{
+    position: relative;
+    perspective: 200px;
+    width: 700px;
+}
+
+.div2{
+    margin: 300px;
+    background: tomato;
+    color: #333;
+    font-family: arial black;
+    font-size: 30px;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    text-transform: uppercase;
+    transform-style: preserve-3d;
+    transform: rotateY(30deg);
+}
